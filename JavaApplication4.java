@@ -29,9 +29,10 @@ public class JavaApplication4 {
         }
        public static boolean isPalindrome(String word, String reversed)
 	{
-		boolean ans = true;
+		boolean ans = false;
 		if(word.equals(reversed))
 		{
+			 ans = true;
 			System.out.println("Your word has not changed at all");
 		}
 		else
